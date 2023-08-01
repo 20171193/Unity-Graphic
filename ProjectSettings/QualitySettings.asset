@@ -18,7 +18,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
-    blendWeights: 1
+    skinWeights: 1
     textureQuality: 1
     anisotropicTextures: 0
     antiAliasing: 0
@@ -40,6 +40,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+    customRenderPipeline: {fileID: 11400000, guid: 9d27c4c4106262242917e0cd616d14ec, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Low
@@ -53,7 +54,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
-    blendWeights: 2
+    skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 0
     antiAliasing: 0
@@ -75,6 +76,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+    customRenderPipeline: {fileID: 11400000, guid: c5e5ea8c92225b344a70ec9f19ce5643, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Medium
@@ -88,7 +90,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
-    blendWeights: 2
+    skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
     antiAliasing: 0
@@ -110,6 +112,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+    customRenderPipeline: {fileID: 11400000, guid: 8a322d4b76f33484d87516c5dd969271, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: High
@@ -123,7 +126,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
-    blendWeights: 2
+    skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
     antiAliasing: 0
@@ -145,6 +148,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+    customRenderPipeline: {fileID: 11400000, guid: ac8d08776cb2a7d4f9021c836b5d486a, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Very High
@@ -158,7 +162,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
-    blendWeights: 4
+    skinWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
     antiAliasing: 2
@@ -180,6 +184,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+    customRenderPipeline: {fileID: 11400000, guid: db4bf4eb3f39ec7498c72874ea897145, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Ultra
@@ -193,7 +198,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
-    blendWeights: 4
+    skinWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
     antiAliasing: 2
@@ -215,12 +220,13 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+    customRenderPipeline: {fileID: 11400000, guid: 0b0ba01d46764af4b9529f498f3788ae, type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 2
-    Lumin: 5
     GameCoreScarlett: 5
     GameCoreXboxOne: 5
+    Lumin: 5
     Nintendo 3DS: 5
     Nintendo Switch: 5
     PS4: 5
