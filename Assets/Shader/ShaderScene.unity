@@ -701,12 +701,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 976293222439149517, guid: 13ff974ba5bbb8b4a97bba3d5bbf8cce, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 976293222439149517, guid: 13ff974ba5bbb8b4a97bba3d5bbf8cce, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d45bcca19b33c674ab1ed851f51ee618, type: 2}
     - target: {fileID: 976293222439149517, guid: 13ff974ba5bbb8b4a97bba3d5bbf8cce, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: ebdb9d6fd9fe5e143b92dbeda1c92bac, type: 2}
+    - target: {fileID: 2418769499540663826, guid: 13ff974ba5bbb8b4a97bba3d5bbf8cce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.172
+      objectReference: {fileID: 0}
     - target: {fileID: 6447855283187979925, guid: 13ff974ba5bbb8b4a97bba3d5bbf8cce, type: 3}
       propertyPath: m_Name
       value: Player
